@@ -7,6 +7,57 @@
 
 <h2 id="测试用放一张四眼的美照。。。。。"><a href="#测试用放一张四眼的美照。。。。。" class="headerlink" title="测试用放一张四眼的美照。。。。。"></a>测试用放一张四眼的美照。。。。。</h2><img src='/../imagestest/gouyan.jpg' width='500' heigth='500' margin='0'>
 
+<h2 id="测试代码是否生效"><a href="#测试代码是否生效" class="headerlink" title="测试代码是否生效"></a>测试代码是否生效</h2><h3 style="color: aqua;font-weight: 600; ">我是测试文本</h3>
+
+<h2 id="测试HTML文件"><a href="#测试HTML文件" class="headerlink" title="测试HTML文件"></a>测试HTML文件</h2><html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/../css/hlwyjbj.css" />
+    <link rel="stylesheet" href="/../css/vant.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class='aaa'>
+      <van-button type="primary" @click='sub'>主要按钮</van-button>
+        <van-cell-group>
+          <van-field
+            v-model="name"
+            label="提交人姓名"
+            placeholder="请输入提交人姓名"
+            input-align="right"
+            :rules="[{ required: true, message: '请填写姓名' }]"
+          />
+        </van-cell-group>
+
+<p>​    </div><br>  </body></p>
+</html>
+
+<script src="/../js/vue.js"></script>
+<script src="/../js/vuemin.js"></script>
+<script src="/../js/vant.js"></script>
+
+<script type="text/javascript">
+  new Vue({
+    el: "#app",
+    data() {
+      return {
+        name: "",
+       };
+    },
+    methods:{
+       sub(){
+      alert('点击了按钮哦')
+    }
+  }
+
+ });
+
+</script>
 ]]></content>
   </entry>
 </search>
