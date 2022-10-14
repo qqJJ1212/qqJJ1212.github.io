@@ -23,18 +23,12 @@
   <body>
     <div id="app">
       <div class='aaa'>
-      <van-button type="primary" @click='sub'>主要按钮</van-button>
-        <van-cell-group>
-          <van-field
-            v-model="name"
-            label="提交人姓名"
-            placeholder="请输入提交人姓名"
-            input-align="right"
-            :rules="[{ required: true, message: '请填写姓名' }]"
-          />
-        </van-cell-group>
+      <van-button type="warning" @click='sub'>测试按钮</van-button>
+      </div>
+        
 
-<p>​    </div><br>  </body></p>
+
+  </body>
 </html>
 
 <script src="/../js/vue.js"></script>
@@ -54,6 +48,7 @@
       alert('点击了按钮哦')
     }
   }
+
 
  });
 
